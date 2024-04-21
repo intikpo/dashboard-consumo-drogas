@@ -2,5 +2,6 @@ dash==2.13.0
 dash-bootstrap-components==1.5.0
 dash-core-components==2.0.0
 dash-html-components==2.0.0
+openpyxl
 pandas
 plotly==5.16.1
