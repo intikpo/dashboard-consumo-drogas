@@ -5,3 +5,4 @@ dash-html-components==2.0.0
 openpyxl
 pandas
 plotly==5.16.1
+gunicorn
