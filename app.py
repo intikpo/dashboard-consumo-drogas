@@ -13,6 +13,7 @@ df_edad = dp.get_data_edad(df)
 
 # Iniciar la aplicación de Dash
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP, 'assets/styles.css'])
+server = app.server
 
 # Establecer el diseño de la aplicación
 app.layout = html.Div([
