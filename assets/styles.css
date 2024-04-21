@@ -1,0 +1,75 @@
+/* === Estilos base === */
+body {
+  background-color: #016421;
+}
+
+h2 {
+  color: #002b0e;
+  text-align: center;
+}
+
+h5 {
+  color: black;
+}
+
+header {
+  color: white;
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* === Estilos de componentes === */
+.tab-content {
+  background-color: rgba(255, 255, 255, 0.7);
+  padding: 20px;
+}
+
+.plot-container {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.filter-box {
+  background-color: white;
+}
+
+.card {
+  color: black;
+  background-color: white;
+}
+
+/* === Estilos del tab seleccionado === */
+.dash-tab--selected .dash-tab__content {
+  border-bottom: 2px solid orange !important; /* Borde inferior naranja */
+}
+
+/* === Estilos responsivos === */
+@media (max-width: 767px) {
+  .responsive-row {
+    flex-direction: column;
+  }
+
+  .responsive-column {
+    flex: 0 0 auto;
+    width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .responsive-row {
+    flex-direction: row;
+  }
+
+  .responsive-column {
+    flex: 1 0 0%;
+    width: 50%;
+  }
+}
+
+/* === Variables CSS === */
+:root {
+  --primary-color: #016421;
+  --secondary-color: #46009b;
+}
